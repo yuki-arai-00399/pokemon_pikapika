@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import pikachu from './pikachu.jpg';
 import raichu from './raichu.png';
-import evolveSound from './evolve.mp3';
+/*import evolveSound from './evolve.mp3';*/
 import './App.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     if (evolved || isEvolving) return;
 
     setIsEvolving(true);
-    new Audio(evolveSound).play();
+    /*new Audio(evolveSound).play();*/
 
     // 進化アニメーション後に状態を切り替える
     setTimeout(() => {
