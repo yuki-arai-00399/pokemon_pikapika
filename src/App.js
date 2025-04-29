@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pikachu from './pikachu.png';
+import pikachu from './pikachu.jpg';
 import raichu from './raichu.png';
 import evolveSound from './evolve.mp3';
 import './App.css';
